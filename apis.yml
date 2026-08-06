@@ -1,7 +1,20 @@
 aid: arzeda
 name: Arzeda
-description: 'Arzeda is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+description: 'Arzeda Corp is a Seattle, Washington protein design company — "The Protein
+  Design Company" — founded in 2008 by David Baker (2024 Nobel Prize in Chemistry),
+  Alexandre Zanghellini and colleagues out of the University of Washington Institute
+  for Protein Design. Its Intelligent Protein Design Technology combines physics-based
+  computational protein design, generative AI and an agentic design-build-test-learn
+  loop over fifteen years of proprietary in-house experimental data to create designer
+  enzymes and proteins that do not exist in nature, then scale them to commercial production.
+  Commercial programs span food and beverage (ViaLeaf Reb M / ProSweet Reb M stevia
+  sweeteners with MANE), home and personal care enzymes (Unilever), advanced materials
+  (W. L. Gore & Associates) and pharmaceutical biologics (Takeda), alongside DARPA
+  and NSF funded work on AI-driven protein design and cell-free biomanufacturing. Arzeda
+  co-founded the OpenFold consortium for open-source protein structure prediction.
+  It sells designed molecules and joint development programs, not software, and publishes
+  no public developer program, API or machine-readable interface.'
+image: https://www.arzeda.com/assets/logos/arzeda_clr_wht.svg
 url: https://raw.githubusercontent.com/api-evangelist/arzeda/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
@@ -12,6 +25,17 @@ created: '2026-08-06'
 modified: '2026-08-06'
 tags:
 - Company
+- Biotechnology
+- Synthetic Biology
+- Protein Design
+- Enzymes
+- Artificial Intelligence
+- Life Sciences
+- Specialty Chemicals
+- Food Ingredients
+- Materials Science
+- Pharmaceuticals
+- Seattle
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -19,5 +43,62 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/arzeda-domain-security.yml
 - type: Website
-  url: https://www.nasdaqprivatemarket.com/
+  url: https://www.arzeda.com/
+- type: About
+  url: https://www.arzeda.com/about
+- type: Technology
+  url: https://www.arzeda.com/technology
+- type: Blog
+  url: https://www.arzeda.com/blog
+- type: News
+  url: https://www.arzeda.com/news
+- type: Publications
+  url: https://www.arzeda.com/publications
+- type: Team
+  url: https://www.arzeda.com/team
+- type: Careers
+  url: https://www.arzeda.com/careers
+- type: Contact
+  url: https://www.arzeda.com/contact
+- type: GitHubOrganization
+  url: https://github.com/Arzeda
+- type: LinkedIn
+  url: https://www.linkedin.com/company/arzeda-corp
+- type: Twitter
+  url: https://x.com/ArzedaCo
+- type: Sitemap
+  url: https://www.arzeda.com/sitemap.xml
+x-enrichment:
+  date: '2026-08-06'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
+x-coverage:
+  state: none
+  reason: no-developer-program
+  detail: Arzeda sells designed enzymes, molecules and joint-development programs rather
+    than software — its arzeda.com Webflow site answers every unknown path (including
+    /openapi.json, /llms.txt and /.well-known/agent-card.json) with the identical 97,718-byte
+    homepage soft-404, and api./docs./developer./app./platform.arzeda.com do not resolve
+    in DNS at all.
+  evidence:
+  - url: https://www.arzeda.com/openapi.json
+    status: 200
+  - url: https://www.arzeda.com/definitely-not-a-real-path-xyz123
+    status: 200
+  - url: https://www.arzeda.com/.well-known/agent-card.json
+    status: 200
+  - url: https://www.arzeda.com/.well-known/security.txt
+    status: 200
+  - url: https://www.arzeda.com/llms.txt
+    status: 200
+  - url: https://api.arzeda.com/
+    status: 0
+  - url: https://docs.arzeda.com/
+    status: 0
+  - url: https://www.arzeda.com/sitemap.xml
+    status: 200
+  checked: '2026-08-06'
