@@ -64,5 +64,81 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Arzeda is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://www.nasdaqprivatemarket.com/
+Arzeda Corp is a Seattle, Washington protein design company — "The Protein Design Company" — founded in 2008 by David Baker (2024 Nobel Prize in Chemistry), Alexandre Zanghellini and colleagues out of the University of Washington Institute for Protein Design. Its Intelligent Protein Design Technology combines physics-based computational protein design, generative AI and an agentic design-build-test-learn loop over fifteen years of proprietary in-house experimental data to create designer enzymes and proteins that do not exist in nature, then scale them to commercial production. Commercial programs span food and beverage (ViaLeaf Reb M / ProSweet Reb M stevia sweeteners with MANE), home and personal care enzymes (Unilever), advanced materials (W. L. Gore & Associates) and pharmaceutical biologics (Takeda), alongside DARPA and NSF funded work on AI-driven protein design and cell-free biomanufacturing. Arzeda co-founded the OpenFold consortium for open-source protein structure prediction. It sells designed molecules and joint development programs, not software, and publishes no public developer program, API or machine-readable interface.
+
+**Areas:** Company · Biotechnology · Synthetic Biology · Protein Design · Enzymes · Artificial Intelligence · Life Sciences · Specialty Chemicals · Food Ingredients · Materials Science · Pharmaceuticals · Seattle
+
+## Arzeda on APIs.io
+
+Everything profiled for Arzeda is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/arzeda/](https://apis.io/providers/arzeda/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Arzeda Domain Security](https://apis.io/security/arzeda/arzeda-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.arzeda.com/)
+- [Blog](https://www.arzeda.com/blog)
+- [GitHub](https://github.com/Arzeda)
+
+## API Evangelist rating
+
+**Kin Score 4.6** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 49.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 2.6 |
+| Developer ergonomics | 2.4 |
+| Access clarity | 0.0 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 4.4** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/arzeda/](https://apis.io/providers/arzeda/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Arzeda: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/arzeda/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
